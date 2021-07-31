@@ -53,28 +53,28 @@ Rust е за студентите и оние кои се заинтересир
 биоинформатика, пребарувачи, апликации за Интернет на нештата, машинско
 учење, па дури и главни делови од веб-прелистувачот Firefox.
 
-### Open Source Developers
+### Програмери со отворен код
 
-Rust is for people who want to build the Rust programming language, community,
-developer tools, and libraries. We’d love to have you contribute to the Rust
-language.
+Rust е за луѓе кои сакаат да го изградат програмскиот јазик Rust, заедница,
+алатки за развивачи и библиотеки. Би сакале да ве поканиме да придонесете на Rust
+јазикот.
 
-### People Who Value Speed and Stability
+### Луѓе кои ја ценат брзината и стабилноста
 
-Rust is for people who crave speed and stability in a language. By speed, we
-mean the speed of the programs that you can create with Rust and the speed at
-which Rust lets you write them. The Rust compiler’s checks ensure stability
-through feature additions and refactoring. This is in contrast to the brittle
-legacy code in languages without these checks, which developers are often
-afraid to modify. By striving for zero-cost abstractions, higher-level features
-that compile to lower-level code as fast as code written manually, Rust
-endeavors to make safe code be fast code as well.
+Rust е за луѓе кои копнеат за брзина и стабилност на јазик. Со брзина, ние
+значи брзина на програми што можете да ги креирате со Rust и брзина на
+што Rust ви дозволува да ги напишете. Проверките на компајлерот Rust обезбедуваат стабилност
+преку дополнувања на карактеристики и рефакторирање. Ова е спротивно на кршливото
+наследен код на јазици без овие проверки, кои програмерите често ги прават
+се плаши да модифицира. Со стремеж кон апстракции со нула цена, карактеристики на повисоко ниво
+кои се компајлираат со код од пониско ниво исто толку брзо како и кодот напишан рачно, Rust
+настојува да се направи безбеден код да биде и брз код.
 
-The Rust language hopes to support many other users as well; those mentioned
-here are merely some of the biggest stakeholders. Overall, Rust’s greatest
-ambition is to eliminate the trade-offs that programmers have accepted for
-decades by providing safety *and* productivity, speed *and* ergonomics. Give
-Rust a try and see if its choices work for you.
+Јазикот Rust се надева дека ќе поддржи и многу други корисници; споменатите
+тука се само некои од најголемите засегнати страни. Генерално, најголемата амбиција на Rust
+е да се елиминираат компромисите за кои програмерите се согласија
+децении со обезбедување на безбедност *и* продуктивност, брзина *и* ергономија. Дај
+пробајте и проверете дали изборот ви одговара.
 
 ## Who This Book Is For
 
