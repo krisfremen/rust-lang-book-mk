@@ -1,24 +1,17 @@
-# Introduction
+# Воведување
 
-> Note: This edition of the book is the same as [The Rust Programming
-> Language][nsprust] available in print and ebook format from [No Starch
-> Press][nsp].
+Добредојдовте на *Програмскиот јазик Rust*, воведна книга за Rust.
+Програмскиот јазик Rust ви помага да напишете побрз, посигурен софтвер.
+Ергономијата на високо ниво и контролата на ниско ниво честопати се во спротивност во програмирањето
+дизајн на јазик; Rust го предизвикува тој конфликт. Преку балансирање моќни
+технички капацитет и одлично искуство со развивач, Rust ви дава опција
+да контролирате детали од ниско ниво (како што е користењето меморија) без сите проблеми
+традиционално поврзани со таква контрола.
 
-[nsprust]: https://nostarch.com/rust
-[nsp]: https://nostarch.com/
+## За кого е Rust
 
-Welcome to *The Rust Programming Language*, an introductory book about Rust.
-The Rust programming language helps you write faster, more reliable software.
-High-level ergonomics and low-level control are often at odds in programming
-language design; Rust challenges that conflict. Through balancing powerful
-technical capacity and a great developer experience, Rust gives you the option
-to control low-level details (such as memory usage) without all the hassle
-traditionally associated with such control.
-
-## Who Rust Is For
-
-Rust is ideal for many people for a variety of reasons. Let’s look at a few of
-the most important groups.
+Rust е идеален за многу луѓе за различни причини. Ајде да погледнеме на неколку од
+најважните групи.
 
 ### Teams of Developers
 
