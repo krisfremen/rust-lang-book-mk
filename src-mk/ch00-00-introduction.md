@@ -13,28 +13,28 @@
 Rust е идеален за многу луѓе за различни причини. Ајде да погледнеме на неколку од
 најважните групи.
 
-### Teams of Developers
+### Тимови на развивачи
 
-Rust is proving to be a productive tool for collaborating among large teams of
-developers with varying levels of systems programming knowledge. Low-level code
-is prone to a variety of subtle bugs, which in most other languages can be
-caught only through extensive testing and careful code review by experienced
-developers. In Rust, the compiler plays a gatekeeper role by refusing to
-compile code with these elusive bugs, including concurrency bugs. By working
-alongside the compiler, the team can spend their time focusing on the program’s
-logic rather than chasing down bugs.
+Rust се покажува како продуктивна алатка за соработка меѓу големите тимови на
+програмери со различно ниво на знаење за системи за програмирање. Код на ниско ниво
+е склон кон различни суптилни грешки, што може да биде и на повеќето други јазици
+фатени само преку екстензивно тестирање и внимателен преглед на код од искусни
+програмери. Во Rust, компајлерот игра улога на чувар одбивајќи да
+компајлирате код со овие недофатливи грешки, вклучително и конкурентни грешки. Работејќи
+заедно со компајлерот, тимот може да го помине своето време фокусирајќи се на програмата
+логика отколку да бркаат бубачки.
 
-Rust also brings contemporary developer tools to the systems programming world:
+Rust исто така носи современи алатки за развивачи во светот на програмирање системи:
 
-* Cargo, the included dependency manager and build tool, makes adding,
-  compiling, and managing dependencies painless and consistent across the Rust
-  ecosystem.
-* Rustfmt ensures a consistent coding style across developers.
-* The Rust Language Server powers Integrated Development Environment (IDE)
-  integration for code completion and inline error messages.
+* Cargo, вклучениот менаџер за зависности и алатка за градење, прави додавање,
+  составување и управување со зависности безболно и конзистентно низ екосистем на
+  Rust.
+* Rustfmt обезбедува конзистентен стил на кодирање помеѓу развивачите.
+* Серверот за јазици на Rust ја овластува Интегрираната развојна средина (ИДЕ)
+  интеграција за комплетирање на код и вградени пораки за грешки.
 
-By using these and other tools in the Rust ecosystem, developers can be
-productive while writing systems-level code.
+Со користење на овие и други алатки во екосистемот на Rust, програмерите можат да бидат
+продуктивни додека пишуваат кодови на ниво на системи.
 
 ### Students
 
