@@ -1,4 +1,4 @@
-# Appendix
+# Додаток
 
-The following sections contain reference material you may find useful in your
-Rust journey.
+Следните делови содржат референтен материјали што може да ги најдете корисни во вашите
+патување со Rust.
