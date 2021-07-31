@@ -9,9 +9,8 @@ macros, static values, attributes, types, traits, or lifetimes.
 
 [raw-identifiers]: #raw-identifiers
 
-### Keywords Currently in Use
-
-The following keywords currently have the functionality described.
+### Клучни зборови што се во корист
+Следниве клучни зборови во моментов ја имаат опишаната функционалност.
 
 * `as` - perform primitive casting, disambiguate the specific trait containing
   an item, or rename items in `use` and `extern crate` statements
