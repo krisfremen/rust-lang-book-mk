@@ -146,38 +146,37 @@ enums за да направите приспособени типови во Ru
 Во Поглавје 20, ќе завршиме проект во кој ќе имплементираме ниско ниво
 мулти тредиран веб сервер!
 
-Finally, some appendices contain useful information about the language in a
-more reference-like format. Appendix A covers Rust’s keywords, Appendix B
-covers Rust’s operators and symbols, Appendix C covers derivable traits
-provided by the standard library, Appendix D covers some useful development
-tools, and Appendix E explains Rust editions.
+Конечно, некои додатоци содржат корисни информации за јазикот во а
+повеќе формат сличен на референца. Додатокот А ги опфаќа клучните зборови на Rust, Додаток Б
+ги опфаќа операторите и симболите на Rust, Додатокот Ц ги опфаќа деривативните карактеристики
+обезбедена од стандардната библиотека, Додатокот Д опфаќа корисен развој
+алатки, и Додаток Е ги објаснува изданијата на Rust.
 
-There is no wrong way to read this book: if you want to skip ahead, go for it!
-You might have to jump back to earlier chapters if you experience any
-confusion. But do whatever works for you.
+Не постои погрешен начин да ја прочитате оваа книга: ако сакате да ја прескокнете напред, повелете!
+Можеби ќе треба да се вратите на претходните поглавја ако доживеете
+конфузија. Секако, правете што работи за вас.
 
 <span id="ferris"></span>
 
-An important part of the process of learning Rust is learning how to read the
-error messages the compiler displays: these will guide you toward working code.
-As such, we’ll provide many examples that don’t compile along with the error
-message the compiler will show you in each situation. Know that if you enter
-and run a random example, it may not compile! Make sure you read the
-surrounding text to see whether the example you’re trying to run is meant to
-error. Ferris will also help you distinguish code that isn’t meant to work:
+Важен дел од процесот на учење Rust е да научите како да читате
+пораки за грешки што ги прикажува компајлерот: тие ќе ве водат кон работниот код.
+Како такви, ќе дадеме многу примери што не се компајлираат заедно со грешката
+порака што компајлерот ќе ви ја прикаже во секоја ситуација. Знајте дека ако влезете
+и извршете случаен пример, може да не се компајлира! Бидете сигурни да го прочитате
+околниот текст за да видите дали е наменет примерот што се обидувате да го извршите
+грешка. Ферис, исто така, ќе ви помогне да разликувате код што не е наменет за работа:
 
-| Ferris                                                                                                           | Meaning                                          |
+| Ферис                                                                                                           | Meaning                                          |
 |------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
 | <img src="img/ferris/does_not_compile.svg" class="ferris-explain" alt="Ferris with a question mark"/>            | This code does not compile!                      |
 | <img src="img/ferris/panics.svg" class="ferris-explain" alt="Ferris throwing up their hands"/>                   | This code panics!                                |
 | <img src="img/ferris/not_desired_behavior.svg" class="ferris-explain" alt="Ferris with one claw up, shrugging"/> | This code does not produce the desired behavior. |
 
-In most situations, we’ll lead you to the correct version of any code that
-doesn’t compile.
+Во повеќето ситуации, ние ќе ве одведеме до точната верзија на кој било код што
+не компајлира.
 
 ## Source Code
 
-The source files from which this book is generated can be found on
-[GitHub][book].
+Изворните датотеки од кои е генерирана оваа книга може да се најдат на [GitHub][book].
 
 [book]: https://github.com/rust-lang/book/tree/master/src
