@@ -127,24 +127,24 @@ enums за да направите приспособени типови во Ru
 во рамките на датотеките. За ова, ние ќе користиме многу од концептите за кои разговаравме во
 претходните поглавја.
 
-Chapter 13 explores closures and iterators: features of Rust that come from
-functional programming languages. In Chapter 14, we’ll examine Cargo in more
-depth and talk about best practices for sharing your libraries with others.
-Chapter 15 discusses smart pointers that the standard library provides and the
-traits that enable their functionality.
+Поглавје 13 ги истражува затворањата и повторувачите: карактеристики на Rust што доаѓаат од
+функционални програмски јазици. Во поглавје 14, ќе го испитаме Cargo повеќе
+длабочина и разговарајте за најдобрите практики за споделување на вашите библиотеки со други.
+Поглавје 15 дискутира за паметни покажувачи што ги нуди стандардната библиотека и
+особини што ја овозможуваат нивната функционалност.
 
-In Chapter 16, we’ll walk through different models of concurrent programming
-and talk about how Rust helps you to program in multiple threads fearlessly.
-Chapter 17 looks at how Rust idioms compare to object-oriented programming
-principles you might be familiar with.
+Во поглавје 16, ќе прошетаме низ различни модели на истовремено програмирање
+и разговарајте за тоа како Rust ви помага да програмирате во повеќе теми бестрашно.
+Поглавјето 17 разгледува како идиомите на Rust се споредуваат со објектно-ориентираното програмирање
+принципи со кои можеби сте запознаени.
 
-Chapter 18 is a reference on patterns and pattern matching, which are powerful
-ways of expressing ideas throughout Rust programs. Chapter 19 contains a
-smorgasbord of advanced topics of interest, including unsafe Rust, macros, and
-more about lifetimes, traits, types, functions, and closures.
+Поглавје 18 е референца за моделите и совпаѓањето на моделите, кои се моќни
+начини на изразување идеи низ програмите на Rust. Поглавјето 19 содржи 
+напредни теми од интерес, вклучувајќи небезбеден Rust, макроа и
+повеќе за животниот век, особините, видовите, функциите и затворањето.
 
-In Chapter 20, we’ll complete a project in which we’ll implement a low-level
-multithreaded web server!
+Во Поглавје 20, ќе завршиме проект во кој ќе имплементираме ниско ниво
+мулти тредиран веб сервер!
 
 Finally, some appendices contain useful information about the language in a
 more reference-like format. Appendix A covers Rust’s keywords, Appendix B
