@@ -85,29 +85,29 @@ Rust е за луѓе кои копнеат за брзина и стабилн�
 за тоа. Ако сте сосема нови во програмирањето, подобро ќе ве услужат
 читање книга која посебно дава вовед во програмирање.
 
-## How to Use This Book
+## Како да ја користите оваа книга
 
-In general, this book assumes that you’re reading it in sequence from front to
-back. Later chapters build on concepts in earlier chapters, and earlier
-chapters might not delve into details on a topic; we typically revisit the
-topic in a later chapter.
+Во принцип, оваа книга претпоставува дека ја читате последователно од напред до
+назад Подоцнежните поглавја се надоврзуваат на концепти во претходните поглавја, и порано
+поглавјата можеби не навлегуваат во детали за некоја тема; типично повторно го посетуваме
+тема во подоцнежното поглавје.
 
-You’ll find two kinds of chapters in this book: concept chapters and project
-chapters. In concept chapters, you’ll learn about an aspect of Rust. In project
-chapters, we’ll build small programs together, applying what you’ve learned so
-far. Chapters 2, 12, and 20 are project chapters; the rest are concept chapters.
+Во оваа книга ќе најдете два вида поглавја: поглавја за концепт и проект
+поглавја. Во поглавјата за концепти, ќе научите за аспект на Rust. Во проектот
+поглавја, заедно ќе градиме мали програми, применувајќи го така наученото
+далеку Поглавјата 2, 12 и 20 се поглавја за проекти; останатите се поглавја за концептот.
 
-Chapter 1 explains how to install Rust, how to write a “Hello, world!” program,
-and how to use Cargo, Rust’s package manager and build tool. Chapter 2 is a
-hands-on introduction to the Rust language. Here we cover concepts at a high
-level, and later chapters will provide additional detail. If you want to get
-your hands dirty right away, Chapter 2 is the place for that. At first, you
-might even want to skip Chapter 3, which covers Rust features similar to those
-of other programming languages, and head straight to Chapter 4 to learn about
-Rust’s ownership system. However, if you’re a particularly meticulous learner
-who prefers to learn every detail before moving on to the next, you might want
-to skip Chapter 2 and go straight to Chapter 3, returning to Chapter 2 when
-you’d like to work on a project applying the details you’ve learned.
+Поглавје 1 објаснува како да инсталирате Rust, како да напишете „Здраво, свет!“ програма,
+и како да се користи Cargo, менаџер на пакети и алатка за изградба на Rust. Поглавје 2 е а
+практично запознавање со Rust јазикот. Овде ги покриваме концептите на највисоко ниво
+ниво, а подоцнежните поглавја ќе дадат дополнителни детали. Ако сакате да одма се ставите во 
+повисока брзина, поглавје 2 е место за тоа. Отпрвин, ти можеби дури и ќе посака да го 
+прескокне поглавјето 3, кое ги опфаќа карактеристиките на Rust слични на оние
+на други програмски јазици и одете директно на Поглавје 4 за да дознаете повеќе
+сопствениот систем во Rust. Меѓутоа, ако сте особено педантен ученик
+кој претпочита да ги учи сите детали пред да премине на следниот, можеби ќе сакате
+да го прескокнете Поглавје 2 и да отидете директно во Поглавје 3, враќајќи се на Поглавје 2 кога
+би сакале да работите на проект со примена на научените детали.
 
 Chapter 5 discusses structs and methods, and Chapter 6 covers enums, `match`
 expressions, and the `if let` control flow construct. You’ll use structs and
