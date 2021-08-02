@@ -9,12 +9,12 @@
 
 [install]: https://forge.rust-lang.org/infra/other-installation-methods.html
 
-The following steps install the latest stable version of the Rust compiler.
-Rust’s stability guarantees ensure that all the examples in the book that
-compile will continue to compile with newer Rust versions. The output might
-differ slightly between versions, because Rust often improves error messages
-and warnings. In other words, any newer, stable version of Rust you install
-using these steps should work as expected with the content of this book.
+Следните чекори ја инсталираат најновата стабилна верзија на компајлерот Rust.
+Стабилноста на Rust гарантира дека сите примери во книгата тоа
+компајлирањето ќе продолжи да се компајлира со поновите верзии на Rust. Излезот може
+малку се разликуваат помеѓу верзиите, бидејќи Rust често ги подобрува пораките за грешка
+и предупредувања. Со други зборови, секоја понова, стабилна верзија на Rust што ја инсталирате
+користењето на овие чекори треба да работи како што се очекува со содржината на оваа книга.
 
 > ### Command Line Notation
 >
@@ -25,37 +25,37 @@ using these steps should work as expected with the content of this book.
 > previous command. Additionally, PowerShell-specific examples will use `>`
 > rather than `$`.
 
-### Installing `rustup` on Linux or macOS
+### Инсталирање `rustup` на Linux или macOS
 
-If you’re using Linux or macOS, open a terminal and enter the following command:
+Ако користите Linux или macOS, отворете терминал и внесете ја следнава команда:
 
 ```console
 $ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 ```
 
-The command downloads a script and starts the installation of the `rustup`
-tool, which installs the latest stable version of Rust. You might be prompted
-for your password. If the install is successful, the following line will appear:
+Командата презема скрипта и започнува со инсталација на алатката `rustup`, која 
+ја инсталира најновата стабилна верзија на Rust. Можеби ќе бидете побарани да ја внесете
+вашата лозинка. Ако инсталацијата е успешна, ќе се појави следната линија:
 
 ```text
 Rust is installed now. Great!
 ```
 
-You will also need a linker, which is a program that Rust uses to join its
-compiled outputs into one file. It is likely you already have one. If you get
-linker errors, you should install a C compiler, which will typically include a
-linker. A C compiler is also useful because some common Rust packages depend on
-C code and will need a C compiler.
+Исто така, ќе ви треба поврзувач, што е програма што Rust ја користи за да се приклучи кон неа
+компајлирани излези во една датотека. Најверојатно веќе имате еден. Ако добиете
+грешки во линкерот, треба да инсталирате C компајлер, кој обично вклучува линкер.
+C Компајлер е исто така корисен бидејќи некои вообичаени пакети Rust зависат од
+C код и ќе треба C компајлер.
 
-On macOS, you can get a C compiler by running:
+На macOS, можете да добиете C компајлер со следната команда:
 
 ```console
 $ xcode-select --install
 ```
 
-Linux users should generally install GCC or Clang, according to their
-distribution's documentation. For example, if you use Ubuntu, you can install
-the `build-essential` package.
+Корисниците на Linux генерално треба да инсталираат GCC или Clang, според
+документацијата за дистрибуцијата што ја користите. На пример, ако користите Ubuntu,
+можете да инсталирате пакетот `build-essential`.
 
 ### Installing `rustup` on Windows
 
