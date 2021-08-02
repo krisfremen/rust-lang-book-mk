@@ -109,23 +109,23 @@ Rust е за луѓе кои копнеат за брзина и стабилн�
 да го прескокнете Поглавје 2 и да отидете директно во Поглавје 3, враќајќи се на Поглавје 2 кога
 би сакале да работите на проект со примена на научените детали.
 
-Chapter 5 discusses structs and methods, and Chapter 6 covers enums, `match`
-expressions, and the `if let` control flow construct. You’ll use structs and
-enums to make custom types in Rust.
+Поглавје 5 дискутира за структури и методи, а поглавјето 6 опфаќа набројувања, `match`
+изрази, и конструкцијата за контрола на `if let`. Ќе користите structs и
+enums за да направите приспособени типови во Rust.
 
-In Chapter 7, you’ll learn about Rust’s module system and about privacy rules
-for organizing your code and its public Application Programming Interface
-(API). Chapter 8 discusses some common collection data structures that the
-standard library provides, such as vectors, strings, and hash maps. Chapter 9
-explores Rust’s error-handling philosophy and techniques.
+Во Поглавје 7, ќе научите за системот на модули на Rust и за правилата за приватност
+за организирање на вашиот код и неговиот јавен интерфејс за програмирање на апликации
+(API). Поглавје 8 дискутира за некои вообичаени структури за собирање податоци што
+стандардната библиотека обезбедува, како што се вектори, стрингови и хаш мапи. Поглавје 9
+ја истражува филозофијата и техниките за справување со грешки на Rust.
 
-Chapter 10 digs into generics, traits, and lifetimes, which give you the power
-to define code that applies to multiple types. Chapter 11 is all about testing,
-which even with Rust’s safety guarantees is necessary to ensure your program’s
-logic is correct. In Chapter 12, we’ll build our own implementation of a subset
-of functionality from the `grep` command line tool that searches for text
-within files. For this, we’ll use many of the concepts we discussed in the
-previous chapters.
+Поглавје 10 копа во генерички карактеристики, особини и животи, кои ви даваат моќ
+да се дефинира код што важи за повеќе типови. Поглавје 11 е за тестирање,
+што дури и со гаранциите за безбедност на Rust е неопходно за да се обезбеди вашата програма
+логиката е точна. Во Поглавје 12, ние ќе изградиме сопствена имплементација на подмножество
+на функционалност од алатката `grep` командна линија која бара текст
+во рамките на датотеките. За ова, ние ќе користиме многу од концептите за кои разговаравме во
+претходните поглавја.
 
 Chapter 13 explores closures and iterators: features of Rust that come from
 functional programming languages. In Chapter 14, we’ll examine Cargo in more
