@@ -59,70 +59,68 @@ $ xcode-select --install
 
 ### Installing `rustup` on Windows
 
-On Windows, go to [https://www.rust-lang.org/tools/install][install] and follow
-the instructions for installing Rust. At some point in the installation, you’ll
-receive a message explaining that you’ll also need the C++ build tools for
-Visual Studio 2013 or later. The easiest way to acquire the build tools is to
-install [Build Tools for Visual Studio 2019][visualstudio]. When asked which
-workloads to install make sure "C++ build tools" is selected and that the
-Windows 10 SDK and the English language pack components are included.
+На Виндоус, одете на [https://www.rust-lang.org/tools/install][install] и следете
+упатствата за инсталирање на Rust. Во одреден момент од инсталацијата, ќе
+videte порака со објаснување дека ќе ви требаат и C++ алатки за градење за
+Visual Studio 2013 или подоцна. Најлесен начин да ги набавите алатките за изградба е да
+инсталирајте [Build Tools for Visual Studio 2019] [visualstudio]. На прашањето која
+обемот на работа за инсталирање проверете дали е избрано "C++ build tools" и дали
+вклучени се SDK за Windows 10 и компонентите на пакетот на англиски јазик.
 
 [install]: https://www.rust-lang.org/tools/install
 [visualstudio]: https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
-The rest of this book uses commands that work in both *cmd.exe* and PowerShell.
-If there are specific differences, we’ll explain which to use.
+Остатокот од оваа книга користи команди што работат и во *cmd.exe* и PowerShell.
+Ако има специфични разлики, ќе објасниме што се користи.
 
-### Updating and Uninstalling
+### Ажурирање и деинсталирање
 
-After you’ve installed Rust via `rustup`, updating to the latest version is
-easy. From your shell, run the following update script:
+Откако ќе го инсталирате Rust преку `rustup`, ажурирање до најновата верзија е
+лесно oд вашиот шел, извршете ја следнава скрипта за ажурирање:
 
 ```console
 $ rustup update
 ```
 
-To uninstall Rust and `rustup`, run the following uninstall script from your
-shell:
+За да ги деинсталирате Rust и `rustup`, извршете ја следнава деинсталирана скрипта од вашиот шел:
 
 ```console
 $ rustup self uninstall
 ```
 
-### Troubleshooting
+### Решавање проблеми
 
-To check whether you have Rust installed correctly, open a shell and enter this
-line:
+За да проверите дали имате правилно инсталиран Rust, отворете шел и внесете ја оваа линија:
 
 ```console
 $ rustc --version
 ```
 
-You should see the version number, commit hash, and commit date for the latest
-stable version that has been released in the following format:
+Треба да го видите бројот на верзијата, хешот и датумот од најновата стабилна верзија објавена
+во следниот формат:
 
 ```text
 rustc x.y.z (abcabcabc yyyy-mm-dd)
 ```
 
-If you see this information, you have installed Rust successfully! If you don’t
-see this information and you’re on Windows, check that Rust is in your `%PATH%`
-system variable. If that’s all correct and Rust still isn’t working, there are
-a number of places you can get help. The easiest is the #beginners channel on
-[the official Rust Discord][discord]. There, you can chat with other Rustaceans
-(a silly nickname we call ourselves) who can help you out. Other great
-resources include [the Users forum][users] and [Stack Overflow][stackoverflow].
+Ако ги видите овие информации, успешно сте го инсталирале Rust! Ако не можете да ги
+видете овие информации и дали сте на Windows, проверете дали Rust е во вашиот `%PATH%`
+системска променлива. Ако сето тоа е точно и Rust уште не работи, има
+голем број места каде може да добиете помош. Најлесно е вклучен каналот #beginners
+[официјален Дискорд за Rust][discord]. Таму, можете да разговарате со други Рустанци
+(прекар што се нарекуваме) кој може да ви помогне. Други одлични
+ресурси вклучуваат [форумот на корисници][users] и [Stack Overflow][stackoverflow].
 
 [discord]: https://discord.gg/rust-lang
 [users]: https://users.rust-lang.org/
 [stackoverflow]: https://stackoverflow.com/questions/tagged/rust
 
-### Local Documentation
+### Локална документација
 
-The installation of Rust also includes a copy of the documentation locally, so
-you can read it offline. Run `rustup doc` to open the local documentation in
-your browser.
+Инсталацијата на Rust исто така вклучува копија од документацијата на локално место, така што
+можете да го прочитате без интенрет. Извршете `rustup doc` за да ја отворите локалната документација
+во вашиот прелистувач.
 
-Any time a type or function is provided by the standard library and you’re not
-sure what it does or how to use it, use the application programming interface
-(API) documentation to find out!
+Секогаш кога типот или функцијата се обезбедени од стандардната библиотека, а вие не сте
+сигурни што прави или како да го користи, користете ја Апликациски Програмски Интерфејс
+(API) документација за да дознаете!
