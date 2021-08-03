@@ -122,18 +122,18 @@ fn main() {
 
 Прво, стилот на Rust е да се повлече со четири празни места, а не со јазиче(tab).
 
-Second, `println!` calls a Rust macro. If it called a function instead, it
-would be entered as `println` (without the `!`). We’ll discuss Rust macros in
-more detail in Chapter 19. For now, you just need to know that using a `!`
-means that you’re calling a macro instead of a normal function, and that macros
-don't always follow the same rules as functions.
+Второ, `println!` повикува Rust макро. Ако наместо тоа повика функција, тоа
+ќе се внесе како `println` (без `!`). ќе разговараме за Rust макроа
+подетално во Поглавје 19. Засега, само треба да знаете дека користејќи `!`
+значи дека повикувате макро наместо нормална функција, и тие макроа
+не ги почитуваат секогаш истите правила како функциите.
 
-Third, you see the `"Hello, world!"` string. We pass this string as an argument
-to `println!`, and the string is printed to the screen.
+Трето, ја гледате низата „Здраво, свет!“. Ја пренесуваме оваа низа како аргумент
+на `println!`, и низата се печати на екранот.
 
-Fourth, we end the line with a semicolon (`;`), which indicates that this
-expression is over and the next one is ready to begin. Most lines of Rust code
-end with a semicolon.
+Четврто, ја завршуваме линијата со точка-запирка(`;`), што покажува дека овој израz е
+завршен и следниот е подготвен да започне. Повеќето линии на Rust код
+завршуваат со точка-запирка.
 
 ### Compiling and Running Are Separate Steps
 
