@@ -40,49 +40,49 @@ $ cd hello_world
 > cd hello_world
 ```
 
-### Writing and Running a Rust Program
+### Пишување и извршување на Rust програма
 
-Next, make a new source file and call it *main.rs*. Rust files always end with
-the *.rs* extension. If you’re using more than one word in your filename, use
-an underscore to separate them. For example, use *hello_world.rs* rather than
+Следно, направете нов изворен фајл и наречете фо *main.rs*. Фајловите за Rust секогаш завршуваат со
+екстензијата *.rs*. Ако користите повеќе од еден збор во вашето име на датотека, користете
+_ (подцрта) за да ги разделиме. На пример, користете *hello_world.rs* наместо
 *helloworld.rs*.
 
-Now open the *main.rs* file you just created and enter the code in Listing 1-1.
+Сега отворете го фајлот *main.rs* што го создадовте и внесете го кодот во Листа 1-1.
 
-<span class="filename">Filename: main.rs</span>
+<span class="filename">Фајл: main.rs</span>
 
 ```rust
 fn main() {
-    println!("Hello, world!");
+    println!("Здраво, свет!");
 }
 ```
 
-<span class="caption">Listing 1-1: A program that prints `Hello, world!`</span>
+<span class="caption">Листа 1-1: Програма што отпечатува `Здраво, свет!`</span>
 
-Save the file and go back to your terminal window. On Linux or macOS, enter
-the following commands to compile and run the file:
+Зачувајте ја датотеката и вратете се во терминалот. На Linux или macOS, внесете
+ги следниве команди за составување и стартување на фајлот:
 
 ```console
 $ rustc main.rs
 $ ./main
-Hello, world!
+Здраво, свет!
 ```
 
-On Windows, enter the command `.\main.exe` instead of `./main`:
+На Windows, внесете ја командата `.\мain.exe` наместо`./мain`:
 
 ```powershell
 > rustc main.rs
 > .\main.exe
-Hello, world!
+Здраво, свет!
 ```
 
-Regardless of your operating system, the string `Hello, world!` should print to
-the terminal. If you don’t see this output, refer back to the
-[“Troubleshooting”][troubleshooting]<!-- ignore --> part of the Installation
-section for ways to get help.
+Без оглед на вашиот оперативен систем, `Здраво, свет!` треба да се отпечати на
+терминалот. Ако не го гледате овој излез, вратете се назад на
+[„Решавање проблеми“][troubleshooting]<!-ignore-> делот од инсталацијата
+за начини како да добиете помош.
 
-If `Hello, world!` did print, congratulations! You’ve officially written a Rust
-program. That makes you a Rust programmer—welcome!
+Ако „Здраво, свет!“ се отпечати, честитки! Официјално напишавте Rust
+програма. Тоа ве прави Rust програмер - добредојдовте!
 
 ### Anatomy of a Rust Program
 
