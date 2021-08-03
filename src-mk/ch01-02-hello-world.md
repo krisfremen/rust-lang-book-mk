@@ -117,10 +117,10 @@ fn main() {
     println!("Здраво, свет!");
 ```
 
-This line does all the work in this little program: it prints text to the
-screen. There are four important details to notice here.
+Оваа линија ја извршува целата работа во оваа мала програма: печати текст на
+екран. Има четири важни детали што треба да се забележат овде.
 
-First, Rust style is to indent with four spaces, not a tab.
+Прво, стилот на Rust е да се повлече со четири празни места, а не со јазиче(tab).
 
 Second, `println!` calls a Rust macro. If it called a function instead, it
 would be entered as `println` (without the `!`). We’ll discuss Rust macros in
