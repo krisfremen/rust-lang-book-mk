@@ -95,26 +95,26 @@ fn main() {
 }
 ```
 
-These lines define a function in Rust. The `main` function is special: it is
-always the first code that runs in every executable Rust program. The first
-line declares a function named `main` that has no parameters and returns
-nothing. If there were parameters, they would go inside the parentheses, `()`.
+Овие линии дефинираат функција во Rust. Функцијата `main` е посебна: тоа е
+секогаш првиот код што работи во секоја извршена Rust програма. Првата
+линија декларира функција наречена `main` која нема параметри и враќа
+ништо. Ако има параметри, тие ќе влезат во заградата, `()`.
 
-Also, note that the function body is wrapped in curly brackets, `{}`. Rust
-requires these around all function bodies. It’s good style to place the opening
-curly bracket on the same line as the function declaration, adding one space in
-between.
+Исто така, имајте предвид дека телото на функцијата е завиткано во кадрави загради, `{}`. Rust
+ги бара овие околу сите функционални тела. Добар стил е да го поставите отворната
+кадрава заграда на иста линија со декларацијата на функцијата, додавајќи еден простор
+помеѓу.
 
-If you want to stick to a standard style across Rust projects, you can use an
-automatic formatter tool called `rustfmt` to format your code in a particular
-style. The Rust team has included this tool with the standard Rust distribution,
-like `rustc`, so it should already be installed on your computer! Check the
-online documentation for more details.
+Ако сакате да се држите до стандардниот стил во проектите на Rust, можете да ja користите 
+алатката за автоматско форматирање наречена `rustfmt` за форматирање на вашиот код во одреден
+стил. Тимот на Rust ја вклучи оваа алатка со стандардната дистрибуција на Rust,
+како `rustc`, така што би требало да е веќе инсталирана на вашиот компјутер! Проверете во
+онлајн документацијата за повеќе детали.
 
-Inside the `main` function is the following code:
+Внатре во функцијата `main` е следниот код:
 
 ```rust
-    println!("Hello, world!");
+    println!("Здраво, свет!");
 ```
 
 This line does all the work in this little program: it prints text to the
