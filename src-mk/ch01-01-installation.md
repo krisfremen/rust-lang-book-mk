@@ -57,7 +57,7 @@ $ xcode-select --install
 документацијата за дистрибуцијата што ја користите. На пример, ако користите Ubuntu,
 можете да инсталирате пакетот `build-essential`.
 
-### Installing `rustup` on Windows
+### Инсталирање `rustup` под Windows
 
 На Виндоус, одете на [https://www.rust-lang.org/tools/install][install] и следете
 упатствата за инсталирање на Rust. Во одреден момент од инсталацијата, ќе
