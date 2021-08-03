@@ -12,17 +12,17 @@
 > the Rust team has been focusing on enabling great IDE support, and progress
 > has been made rapidly on that front!
 
-### Creating a Project Directory
+### Креирање директориум за проекти
 
-You’ll start by making a directory to store your Rust code. It doesn’t matter
-to Rust where your code lives, but for the exercises and projects in this book,
-we suggest making a *projects* directory in your home directory and keeping all
-your projects there.
+Ќе започнеме со правење директориум за чување на вашиот Rust код. Не е важно
+na Руст каде e вашиот код, но за вежбите и проектите во оваа книга,
+предлагаме да направите директориум *проекти* во вашиот домашен директориум и да ги чувате сите
+ваши проекти таму.
 
-Open a terminal and enter the following commands to make a *projects* directory
-and a directory for the “Hello, world!” project within the *projects* directory.
+Отворете терминал и внесете ги следниве команди за да направите директориум *проекти*
+и директориум за "Здраво, свет!" проектот во директориумот *проекти*.
 
-For Linux, macOS, and PowerShell on Windows, enter this:
+За Linux, macOS и PowerShell на Windows, внесете го ова:
 
 ```console
 $ mkdir ~/projects
@@ -31,7 +31,7 @@ $ mkdir hello_world
 $ cd hello_world
 ```
 
-For Windows CMD, enter this:
+За Windows CMD, внесете го ова:
 
 ```cmd
 > mkdir "%USERPROFILE%\projects"
