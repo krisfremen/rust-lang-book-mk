@@ -135,33 +135,31 @@ fn main() {
 завршен и следниот е подготвен да започне. Повеќето линии на Rust код
 завршуваат со точка-запирка.
 
-### Compiling and Running Are Separate Steps
+### Компајлирање и извршувањето се одвоени чекори
 
-You’ve just run a newly created program, so let’s examine each step in the
-process.
+Штотуку ја извршивте новосоздадената програма, па да го испитаме секој чекор во овој процес.
 
-Before running a Rust program, you must compile it using the Rust compiler by
-entering the `rustc` command and passing it the name of your source file, like
-this:
+Пред да ја извршите програмата, мора да ја компајлирате со помош на компајлерот Rust при
+внесување на командата `rustc` и на името на вашиот изворен фајл, како
+следнава линија:
 
 ```console
 $ rustc main.rs
 ```
 
-If you have a C or C++ background, you’ll notice that this is similar to `gcc`
-or `clang`. After compiling successfully, Rust outputs a binary executable.
+Ако имате позадина C или C ++, ќе забележите дека ова е слично на `gcc`
+или `clang`. По успешното компајлирање, Rust дава бинарен фајл што може да се изврши.
 
-On Linux, macOS, and PowerShell on Windows, you can see the executable by
-entering the `ls` command in your shell. On Linux and macOS, you’ll see two
-files. With PowerShell on Windows, you’ll see the same three files that you
-would see using CMD.
+На Linux, macOS и PowerShell на Windows, можете да ги видите извршните фајлови при
+внесување на командата `ls` во вашиот шел. На Linux и macOS, ќе видите два
+фајла. Со PowerShell на Windows, ќе ги видите истите три фајлови при користење на CMD.
 
 ```console
 $ ls
 main  main.rs
 ```
 
-With CMD on Windows, you would enter the following:
+Со CMD на Windows, би го внеле следново:
 
 ```cmd
 > dir /B %= the /B option says to only show the file names =%
@@ -170,10 +168,10 @@ main.pdb
 main.rs
 ```
 
-This shows the source code file with the *.rs* extension, the executable file
-(*main.exe* on Windows, but *main* on all other platforms), and, when using
-Windows, a file containing debugging information with the *.pdb* extension.
-From here, you run the *main* or *main.exe* file, like this:
+Ова го покажува изворниот фајл со наставката *.rs*, извршен фајл
+(*main.exe* на Windows, но *main* на сите други платформи), и кога се користи
+Windows, фајлот што содржи информации за дебагирање завршува со наставката *.pdb*.
+Оттука, го извршувате фајлот *main* или *main.exe*, вака:
 
 ```console
 $ ./main # or .\main.exe on Windows
