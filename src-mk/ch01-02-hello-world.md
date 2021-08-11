@@ -177,21 +177,20 @@ Windows, фајлот што содржи информации за дебаги
 $ ./main # or .\main.exe on Windows
 ```
 
-If *main.rs* was your “Hello, world!” program, this line would print `Hello,
-world!` to your terminal.
+Ако *main.rs* беше вашиот „Здраво, свет!“ програма, оваа линија ќе отпечати `Здраво,
+свет! ` во вашиот терминал.
 
-If you’re more familiar with a dynamic language, such as Ruby, Python, or
-JavaScript, you might not be used to compiling and running a program as
-separate steps. Rust is an *ahead-of-time compiled* language, meaning you can
-compile a program and give the executable to someone else, and they can run it
-even without having Rust installed. If you give someone a *.rb*, *.py*, or
-*.js* file, they need to have a Ruby, Python, or JavaScript implementation
-installed (respectively). But in those languages, you only need one command to
-compile and run your program. Everything is a trade-off in language design.
+Ако сте повеќе запознаени со динамичен јазик, како што се Ruby, Python или
+JavaScript, можеби не сте навикнати да составувате и извршувате програма како
+одделни чекори. Rust е јазик компајлиран *однапред-време*, што значи дека можете
+да ја компајлирате програмата и да ја дадете на некого, и тие можат да ја извршат
+дури и без инсталирање на Rust. Ако на некого дадете *.rb*, *.py*, или
+*.js* датотека, тие треба да имаат имплементација Ruby, Python или JavaScript
+инсталиран (соодветно). Но, на тие јазици, ви треба само една команда
+соберете и стартувајте ја вашата програма. С Everything е компромис во дизајнот на јазикот.
 
-Just compiling with `rustc` is fine for simple programs, but as your project
-grows, you’ll want to manage all the options and make it easy to share your
-code. Next, we’ll introduce you to the Cargo tool, which will help you write
-real-world Rust programs.
-
+Само компајлирање со `rustc` е во ред за едноставни програми, но како вашот проект
+расте, ќе сакате да управувате со сите опции и да го олесните споделувањето на вашите
+код. Следно, ќе ве запознаеме со алатката Cargo, која ќе ви помогне да напишете
+реални програми во Rust.
 [troubleshooting]: ch01-01-installation.html#troubleshooting
